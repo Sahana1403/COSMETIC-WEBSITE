@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLOWAURA COSMETIC WEBSITE</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>     
+    <section>
+        <div class="2xl:container mx-auto shadow-md h-11 bg-white">
+        <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 h-11 m-3">
+          <div class="bg-white flex justify-between">
+            <div class="md:hidden justify-around">
+                <div class="flex gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" id="profile">
+                    <g fill="none" fill-rule="evenodd">
+                      <g fill="#000" transform="translate(-380 -2159)">
+                        <g transform="translate(56 160)">
+                          <path d="M334 2011c3.785 0 6.958 2.214 7.784 6h-15.568c.826-3.786 3.999-6 7.784-6m-4-6c0-2.206 1.794-4 4-4s4 1.794 4 4-1.794 4-4 4-4-1.794-4-4m7.758 4.673A5.983 5.983 0 0 0 340 2005a6 6 0 1 0-9.758 4.673c-3.659 1.375-6.242 4.772-6.242 9.327h20c0-4.555-2.583-7.952-6.242-9.327"></path>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+            </div>
+            <img class="h-9 m-1" src="https://ik.imagekit.io/vdhyx6juu/WhatsApp%20Image%202024-09-11%20at%2012.47.31%20AM.jpeg?updatedAt=1725995883734"/>
+                   
+            <div class="relative w-full max-w-md mx-8 shadow-sm hidden md:block lg:block">
+                <input type="search" id="search" class="m-1 pl-10 pr-4 py-2 w-full text-sm text-gray-700" placeholder="Search...">
+                <button class="absolute left-0 top-0 ml-3 mt-3">
+                  <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </button>
+            </div>
+            <div>
+              <!--Menu Icon-->
+              <svg class="md:hidden" viewbox="0 0 1024 1024" fill="currentColor" height="1em" width="1em" id="menuIcon">
+                <path
+                  d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z" />
+              </svg>
+    
+              <!--Cross Icon-->
+              <svg class="hidden md:hidden" viewbox="0 0 21 21" fill="currentColor" height="1em" width="1em" id="crossIcon">
+                <g fill="none" fillrule="evenodd" stroke="currentColor" strokelinecap="round" strokelinejoin="round">
+                  <path d="M15.5 15.5l-10-10zM15.5 5.5l-10 10" />
+                </g>
+              </svg>
+            </div>
+          </div>
+
+          <div id="ulElement" class="sm:hidden md:block">
+            <div class="flex justify-end space-x-2">
+              <ul class="bg-white flex flex-col justify-center items-center md:flex-row md:justify-end gap-4 w-full">
+                <li class="text-gray-800 text-lg font-semibold hover:bg-[#ac395d] hover:text-white p-1 rounded-md" id="home">
+                  <a href="navbar.html">
+                  Home
+                  </a>
+              </li>
+              <li class="text-gray-800 text-lg font-semibold hover:bg-[#ac395d] hover:text-white p-1 rounded-md" id="about"><a href="./aboutus.html">
+                About us
+              </a></li>
+              <li class="text-gray-800 text-lg font-semibold hover:bg-[#ac395d] hover:text-white p-1 rounded-md" id="help">
+                <a href="./services.html">Services</a></li>
+                <li class="text-gray-800 text-lg font-semibold hover:bg-[#ac395d] hover:text-white p-1 rounded-md" id="offer">
+                    <a href="">Offers</a></li>
+              <li class="text-gray-800 text-lg font-semibold hover:bg-[#ac395d] hover:text-white p-1 rounded-md" id="contact"><a href="./contact1.html">Contact us</a></li>
+            </ul>
+            <div class="hidden md:block justify-around">
+                <div class="flex gap-4 px-3 py-1">
+                <button><a href="./profile.html">    
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" id="profile">
+                    <g fill="none" fill-rule="evenodd">
+                      <g fill="#000" transform="translate(-380 -2159)">
+                        <g transform="translate(56 160)">
+                          <path d="M334 2011c3.785 0 6.958 2.214 7.784 6h-15.568c.826-3.786 3.999-6 7.784-6m-4-6c0-2.206 1.794-4 4-4s4 1.794 4 4-1.794 4-4 4-4-1.794-4-4m7.758 4.673A5.983 5.983 0 0 0 340 2005a6 6 0 1 0-9.758 4.673c-3.659 1.375-6.242 4.772-6.242 9.327h20c0-4.555-2.583-7.952-6.242-9.327"></path>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a></button>
+                <button><a href="./cart.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart"><circle cx="8" cy="21" r="1"/>
+                    <circle cx="19" cy="21" r="1"/>
+                    <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/>
+                </svg></a>
+                </button>
+                </div>
+            </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div id="ulElement" class="block md:hidden">
+      <ul class="bg-white flex flex-col justify-center items-center md:flex-row md:justify-end gap-4 w-full">
+        <li class="text-gray-800 text-lg font-semibold hover:bg-[#ac395d] hover:text-white p-1 rounded-md cursor-pointer" id="home">
+          <a href="navbar.html">
+            Home
+          </a>
+        </li>
+        <li class="text-gray-800 text-lg font-semibold hover:bg-[#ac395d] hover:text-white p-1 rounded-md" id="about">
+          <a href="./aboutus.html">
+            About us
+          </a>
+        </li>
+        <li class="text-gray-800 text-lg font-semibold hover:bg-[#ac395d] hover:text-white p-1 rounded-md" id="help">
+          <a href="./services.html">
+            Services
+          </a>
+        </li>
+        <li class="text-gray-800 text-lg font-semibold hover:bg-[#ac395d] hover:text-white p-1 rounded-md" id="offer">
+          <a href="">
+            Offers
+          </a>
+        </li>
+        <li class="text-gray-800 text-lg font-semibold hover:bg-[#ac395d] hover:text-white p-1 rounded-md" id="contact">
+          <a href="./contact1.html">
+            Contact us
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <section
+      class="bg-[url('https://ik.imagekit.io/vdhyx6juu/cosmo1.jpg?updatedAt=1725924688728')] h-screen bg-cover">
+  
+      <div class="2xl:container mx-auto h-[100%]">
+        <!-- safty cont -->
+        <div class="w-[90%] mx-auto grid grid-cols-1 h-[100%]">
+          <div class="flex flex-col justify-center items-start gap-4 pt-[90px] md:pt-0 lg:pt-0">
+            <h1 class="text-white font-[Poppins] text-7xl font-bold">Build. Blend. Beautify
+            </h1>
+            <p class="text-white font-[Poppins] text-2xl py-4">Discover makeup that enhances your natural glow with every blend.<br>
+            High-quality cosmetics crafted to inspire your unique style.</p>
+            <div class="space-y-4">
+              <button class="text-white font-[Poppins] text-[15px] bg-[#ac395d] rounded-lg p-3 w-[124px] flex">
+                <p>Learn More</p>
+                <span class="text-white font-extrabold p-2"><svg fill="currentColor" viewbox="0 0 16 16" height="0.75em" width="0.75em">
+                  <path fillrule="evenodd"
+                    d="M1 8a.5.5 0 01.5-.5h11.793l-3.147-3.146a.5.5 0 01.708-.708l4 4a.5.5 0 010 .708l-4 4a.5.5 0 01-.708-.708L13.293 8.5H1.5A.5.5 0 011 8z" />
+                </svg></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Shopping Card Section Starting-->
+    <section class="py-5">
+        <div class="2xl:container mx-auto">
+          <div class="w-[90%] mx-auto grid grid-cols-1 py-2">
+            <div>
+              <h1 class="font-[Poppins] text-[#183b56] text-4xl font-bold">
+                SHOP NOW
+              </h1>
+            </div>
+          </div>
+          <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            
+            <div class="bg-slate-100 flex flex-col justify-center items-center space-y-2 py-5 px-1 rounded-lg shadow-lg">
+                <img class="h-[350px]" src="https://ik.imagekit.io/vdhyx6juu/m1.jpg" alt="card-image" />
+                
+                <p class="font-[Poppins] text-[#000] text-xl font-medium text-start">
+                  Smooth Skin Cover Foundation Primer 20g Pores Makeup Concealer Cream Coverage...
+                </p>
+                <div class="flex">
+                <img class="h-10" src="https://png.pngtree.com/png-vector/20220629/ourmid/pngtree-four-4-star-rank-sign-vector-illustration-eps10-png-image_5621249.png"/>
+                <p class="font-[Poppins] text-gray-600 text-sm font-medium m-3">48,607</p>
+                </div>
+                <p class="font-[Poppins] text-[#000] text-base font-medium">20K+ bought in past month</p>
+                <p class="font-[Poppins] text-[#000] text-sm font-medium"><span class="font-bold text-2xl">$38.80</span> ($38.80/Count)</p>
+                <button class="bg-[#ac395d] text-white rounded-xl p-3">Add to Cart</button>
+              </div>
+            <div class="bg-slate-100 flex flex-col justify-center items-center space-y-2 py-5 px-1 rounded-lg shadow-lg">
+                <img class="h-[350px]" src="https://ik.imagekit.io/vdhyx6juu/m2.jpg" alt="card-image" />
+                
+                <p class="font-[Poppins] text-[#000] text-xl font-medium text-start">
+                    e.l.f. Monochromatic Multi Stick, Luxuriously Creamy & Blendable Color, For Eyes, Lips & Cheeks,...
+                </p>
+                <div class="flex">
+                <img class="h-10" src="https://png.pngtree.com/png-vector/20220609/ourmid/pngtree-three-3-star-rank-background-png-image_4833765.png"/>
+                <p class="font-[Poppins] text-gray-600 text-sm font-medium m-3">66,050</p>
+                </div>
+                <p class="font-[Poppins] text-[#000] text-base font-medium">20K+ bought in past month</p>
+                <p class="font-[Poppins] text-[#000] font-bold text-2xl">$5</span></p>
+                <button class="bg-[#ac395d] text-white rounded-xl p-3">Add to Cart</button>
+              </div>
+
+            <div class="bg-slate-100 flex flex-col justify-center items-center space-y-2 py-5 px-1 rounded-lg shadow-lg">
+                <img class="h-[350px]" src="https://ik.imagekit.io/vdhyx6juu/skin%20care.jpg?updatedAt=1726006288585" alt="card-image" />
+                
+                <p class="font-[Poppins] text-[#000] text-xl font-medium text-start">
+                    IT Cosmetics Your Skin But Better CC+ Cream - Color Correcting Cream, Full-Coverage Foundation,...
+                </p>
+                <div class="flex">
+                <img class="h-10" src="https://png.pngtree.com/png-vector/20220629/ourmid/pngtree-four-4-star-rank-sign-vector-illustration-eps10-png-image_5621249.png"/>
+                <p class="font-[Poppins] text-gray-600 text-sm font-medium m-3">27,829</p>
+                </div>
+                <p class="font-[Poppins] text-[#000] text-base font-medium">3K+ bought in past month</p>
+                <p class="font-[Poppins] text-[#000] text-sm font-medium"><span class="font-bold text-2xl">$47.00</span> ($43.52/Fl oz)</p>
+                <button class="bg-[#ac395d] hover:bg-[#ac395d] text-white rounded-xl p-3" id="add-to-cart-btn">Add to Cart</button>
+                <div class="cart-counter text-lg font-bold" id="cart-counter">
+                </div>
+            </div>
+
+            <div class="bg-slate-100 flex flex-col justify-center items-center space-y-2 py-5 px-1 rounded-lg shadow-lg">
+                <img class="h-[350px]" src="https://m.media-amazon.com/images/I/71AEbODrs9L._AC_UL480_FMwebp_QL65_.jpg" alt="card-image" />
+                
+                <p class="font-[Poppins] text-[#000] text-xl font-medium text-start">
+                    BS-MALL Makeup Brush Set 18 Pcs Premium Synthetic Foundation Powder Concealers...
+                </p>
+                <div class="flex">
+                <img class="h-10" src="https://png.pngtree.com/png-vector/20220629/ourmid/pngtree-four-4-star-rank-sign-vector-illustration-eps10-png-image_5621249.png"/>
+                <p class="font-[Poppins] text-gray-600 text-sm font-medium m-3">48,308</p>
+                </div>
+                <p class="font-[Poppins] text-[#000] text-base font-medium">40K+ bought in past month</p>
+                <p class="font-[Poppins] text-[#000] text-sm font-medium"><span class="font-bold text-2xl">$9.99</span> ($9.99/Count)</p>
+                <button class="bg-[#ac395d] text-white rounded-xl p-3">Add to Cart</button>
+            </div>
+
+            <div class="bg-slate-100 flex flex-col justify-center items-center space-y-2 py-5 px-1 rounded-lg shadow-lg">
+                <img class="h-[350px]" src="https://m.media-amazon.com/images/I/61CC6V1AKxL._AC_UL480_FMwebp_QL65_.jpg" alt="card-image" />
+                
+                <p class="font-[Poppins] text-[#000] text-xl font-medium text-start">
+                    PrimeLash Mascara for Older Women - Volumizing, Incredible Length in 2 Coats - Long-Stay,...
+                </p>
+                <div class="flex">
+                <img class="h-10" src="https://png.pngtree.com/png-vector/20220629/ourmid/pngtree-four-4-star-rank-sign-vector-illustration-eps10-png-image_5621249.png"/>
+                <p class="font-[Poppins] text-gray-600 text-sm font-medium m-3">7,986</p>
+                </div>
+                <p class="font-[Poppins] text-[#000] text-base font-medium">10K+ bought in past month</p>
+                <p class="font-[Poppins] text-[#000] font-bold text-2xl">$28.00</span></p>
+                <button class="bg-[#ac395d] text-white rounded-xl p-3">Add to Cart</button>
+            </div>
+
+            <div class="bg-slate-100 flex flex-col justify-center items-center space-y-2 py-5 px-1 rounded-lg shadow-lg">
+                <img class="h-[350px]" src="https://m.media-amazon.com/images/I/81OIVeQ05-S._AC_UL480_FMwebp_QL65_.jpg" alt="card-image" />
+                
+                <p class="font-[Poppins] text-[#000] text-xl font-medium text-start">
+                    COSTICA Makeup Sponge Set Blender, Beauty Sponge Makeup Blender Flawless for Liquid...
+                </p>
+                <div class="flex">
+                <img class="h-10" src="https://png.pngtree.com/png-vector/20220609/ourmid/pngtree-three-3-star-rank-background-png-image_4833765.png"/>
+                <p class="font-[Poppins] text-gray-600 text-sm font-medium m-3">3,572</p>
+                </div>
+                <p class="font-[Poppins] text-[#000] text-base font-medium">1K+ bought in past month</p>
+                <p class="font-[Poppins] text-[#000] text-sm font-medium"><span class="font-bold text-2xl">$8</span> ($2.15/Count)</p>
+                <button class="bg-[#ac395d] text-white rounded-xl p-3">Add to Cart</button>
+            </div>
+
+            <div class="bg-slate-100 flex flex-col justify-center items-center space-y-2 py-5 px-1 rounded-lg shadow-lg">
+                <img class="h-[350px]" src="https://m.media-amazon.com/images/I/61Gb6bc3bYL._AC_UL480_FMwebp_QL65_.jpg" alt="card-image" />
+                
+                <p class="font-[Poppins] text-[#000] text-xl font-medium text-start">
+                    bareMinerals Mineral Veil Loose Setting Powder, Weightless Blurring, Baking + Finishing...
+                </p>
+                <div class="flex">
+                <img class="h-10" src="https://png.pngtree.com/png-vector/20220629/ourmid/pngtree-four-4-star-rank-sign-vector-illustration-eps10-png-image_5621249.png"/>
+                <p class="font-[Poppins] text-gray-600 text-sm font-medium m-3">7,874</p>
+                </div>
+                <p class="font-[Poppins] text-[#000] text-base font-medium">3K+ bought in past month</p>
+                <p class="font-[Poppins] text-[#000] text-sm font-medium"><span class="font-bold text-2xl">$30.00</span> ($30/Count)</p>
+                <button class="bg-[#ac395d] text-white rounded-xl p-3">Add to Cart</button>
+            </div>
+
+            <div class="bg-slate-100 flex flex-col justify-center items-center space-y-2 py-5 px-1 rounded-lg shadow-lg">
+                <img class="h-[350px]" src="https://m.media-amazon.com/images/I/5143ALOqAEL._AC_UL480_FMwebp_QL65_.jpg" alt="card-image" />
+                
+                <p class="font-[Poppins] text-[#000] text-xl font-medium text-start">
+                    Grande - BROW Brow Enhancing Serum
+
+                </p>
+                <div class="flex">
+                <img class="h-10" src="https://png.pngtree.com/png-vector/20220629/ourmid/pngtree-four-4-star-rank-sign-vector-illustration-eps10-png-image_5621249.png"/>
+                <p class="font-[Poppins] text-gray-600 text-sm font-medium m-3">6,309</p>
+                </div>
+                <p class="font-[Poppins] text-[#000] text-base font-medium">4K+ bought in past month</p>
+                <p class="font-[Poppins] text-[#000] text-sm font-medium"><span class="font-bold text-2xl">$29</span> ($29/Count)</p>
+                <button class="bg-[#ac395d] text-white rounded-xl p-3">Add to Cart</button>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+      <!--Shopping Card Section Ending-->
+
+
+<section>
+    <div class="2xl:container mx-auto m-2">
+        <div class="w-[90%] mx-auto grid grid-cols-1">
+            <div class="flex space-x-2">
+            <p class="font-[Poppins] text-[#000] text-lg font-bold">More items to consider</p>
+            <p class="text-lg font-medium font-[Poppins] text-blue-800 hover:underline">See More</p>
+            </div>
+        </div>
+    </div>
+      
+    <div class="2xl:container mx-auto m-2">
+        <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            <div class="bg-white flex space-y-4 rounded-lg shadow-lg gap-x-11 overflow-scroll lg:w-[1335px] md:w-[815px] sm:w-[200px]">
+              <img src="https://m.media-amazon.com/images/I/61FfGNgMGsL._AC_SY200_.jpg" alt="card-image" />
+              <img src="https://m.media-amazon.com/images/I/51nnm3xrl9L._AC_SY200_.jpg" alt="card-image" />
+              <img src="https://m.media-amazon.com/images/I/71wkKscXeAL._AC_SY200_.jpg" alt="card-image" />
+              <img src="https://m.media-amazon.com/images/I/51HHN1HGgFL._AC_SY200_.jpg" alt="card-image" />
+              <img src="https://m.media-amazon.com/images/I/71IzpveSUAL._AC_SY200_.jpg" alt="card-image" />
+              <img src="https://m.media-amazon.com/images/I/61ER6HJuk5L._AC_SY200_.jpg" alt="card-image" />
+              <img src="https://m.media-amazon.com/images/I/61DrVkR5f3L._AC_SY200_.jpg" alt="card-image" />
+              <img src="https://m.media-amazon.com/images/I/51IZj6i0f2L._AC_SY200_.jpg" alt="card-image" />
+              <img src="https://m.media-amazon.com/images/I/71Cq-RSAfFL._AC_SY200_.jpg" alt="card-image" />
+              <img src="https://m.media-amazon.com/images/I/61Uh9JAFNPL._AC_SY200_.jpg" alt="card-image" />
+              <img src="https://m.media-amazon.com/images/I/41uRGlKoSML._AC_SY200_.jpg" alt="card-image" />
+              <img src="https://m.media-amazon.com/images/I/71z+dXmKpEL._AC_SY200_.jpg" alt="card-image" />
+              <img src="https://m.media-amazon.com/images/I/61ZXUqS1GrL._AC_SY200_.jpg" alt="card-image" />
+
+            </div>
+        </div>        
+      </div>
+    </div>
+</section>
+  
+  <script>
+    const menuIcon = document.getElementById("menuIcon");
+    const crossIcon = document.getElementById("crossIcon");
+    const ulElement = document.getElementById("ulElement");
+    const home = document.getElementById("home");
+    const about = document.getElementById("about");
+    const help = document.getElementById("help");
+    const offer = document.getElementById("offer");
+    const contact = document.getElementById("contact");
+
+
+    menuIcon.addEventListener("click", () => {
+      ulElement.classList.toggle("hidden");
+      menuIcon.classList.toggle("hidden");
+      crossIcon.classList.toggle("hidden");
+    })
+
+    crossIcon.addEventListener("click", () => {
+      ulElement.classList.toggle("hidden");
+      menuIcon.classList.toggle("hidden");
+      crossIcon.classList.toggle("hidden");
+    })
+
+    help.addEventListener("click", () => {
+      ulElement.classList.toggle("hidden");
+      menuIcon.classList.toggle("hidden");
+      crossIcon.classList.toggle("hidden");
+    })
+
+    home.addEventListener("click", () => {
+      ulElement.classList.toggle("hidden");
+      menuIcon.classList.toggle("hidden");
+      crossIcon.classList.toggle("hidden");
+    })
+
+    offer.addEventListener("click", () => {
+      ulElement.classList.toggle("hidden");
+      menuIcon.classList.toggle("hidden");
+      crossIcon.classList.toggle("hidden");
+    })
+
+    const searchInput = document.getElementById('search');
+    searchInput.addEventListener('keyup', (e) => {
+  const query = searchInput.value.trim();
+  console.log(`Searching for: ${query}`);
+});
+
+// Get the add to cart button and cart counter elements
+const addToCartBtn = document.getElementById('add-to-cart-btn');
+const cartCounter = document.getElementById('cart-counter');
+
+// Initialize the cart count to 0
+let cartCount = 0;
+
+// Add an event listener to the add to cart button
+addToCartBtn.addEventListener('click', () => {
+  // Increment the cart count
+  cartCount++;
+
+  // Update the cart counter text
+  cartCounter.textContent = `${cartCount} item${cartCount === 1 ? '' : 's'} in cart`;
+
+  // Show the cart counter
+  cartCounter.style.display = 'block';
+
+  // Update the button text
+  addToCartBtn.textContent = 'Item added to cart';
+});
+  </script>
+
+  <!-- Footer Section -->
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h4 class="text-black">About Us</h4>
+          <ul>
+            <li><a href="#" class="footer-link">Our Story</a></li>
+            <li><a href="#" class="footer-link">Careers</a></li>
+            <li><a href="#" class="footer-link">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h4 class="text-black">Customer Service</h4>
+          <ul>
+            <li><a href="#" class="footer-link">FAQs</a></li>
+            <li><a href="#" class="footer-link">Shipping Policy</a></li>
+            <li><a href="#" class="footer-link">Return Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h4 class="text-black">Follow Us</h4>
+          <ul>
+            <div class="flex gap-1"><li><a href="#" target="_blank" class="footer-link social-link"><i class="fa fa-facebook"></i> Facebook</a></li>
+                <img class="h-10 mx-0" src="https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wine.svg"/></div>
+            <div class="flex gap-3"><li><a href="#" target="_blank" class="footer-link social-link"><i class="fa fa-instagram"></i> Instagram</a></li>
+                <img class="h-7 mx-0 my-2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"/>
+            </div>
+            <div class="flex gap-2"><li><a href="#" target="_blank" class="footer-link social-link"><i class="fa fa-twitter"></i> Twitter</a></li>
+            <img class="h-10 mx-8" src="https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png"/></div>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h4>Newsletter</h4>
+          <p>Stay up to date with our latest news and offers!</p>
+          <form>
+            <input type="email" placeholder="Enter your email address" class="footer-input">
+            <button type="submit" class="footer-btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-page">
+      <p>&copy; 2024 GLOWAURA. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="#" target="_blank" class="social-link"><i class="fa fa-facebook"></i></a>
+        <a href="#" target="_blank" class="social-link"><i class="fa fa-instagram"></i></a>
+        <a href="#" target="_blank" class="social-link"><i class="fa fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+  
+<style>
+    footer {
+  background-color: #f7f7f7;
+  padding: 20px 0;
+  color: #333;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col-md-3 {
+  flex-basis: 25%;
+  margin: 20px;
+}
+
+footer h4 {
+  font-weight: bold;
+  margin-top: 0;
+  color: #337ab7;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #337ab7;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+footer a:hover {
+  color: #23527c;
+}
+
+.footer-link {
+  font-size: 16px;
+  font-weight: bold;
+  color: #337ab7;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #23527c;
+}
+
+.social-link {
+  font-size: 24px;
+  color: #337ab7;
+  transition: color 0.2s ease;
+}
+
+.social-link:hover {
+  color: #23527c;
+}
+
+.footer-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-btn {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.bottom-page {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+</style>
+
+</body>
+</html>
